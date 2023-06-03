@@ -93,10 +93,9 @@ def remove(filename: str ="") -> bool:
 
 if __name__ == '__main__':
     server_address = ('172.19.0.5', 6666)
-    remote_list()
-    add("testfile.txt") 
-    add('donalbebek.jpg')
-    add('rfc2616.pdf')
-    remove('testfile.txt')
-    remote_list()
-    remote_get('donalbebek.jpg')
+    # add("testfile.txt") 
+    # add('donalbebek.jpg')
+    # add('pokijan.jpg')
+    remove("testfile.txt") 
+    remove('donalbebek.jpg')
+    
